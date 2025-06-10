@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    justify-content: center;
+    text-align:center;
+    margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  background-image: url('background2.jpg'); /* or 'assets/background.png' if it's in a folder */
+  background-size: cover;       /* make the image fill the screen */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat;
+}
+h1{
+    color: hsl(223, 100%, 64%);
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 300px;
+    margin:  auto;
+    padding: 25px;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.301);
+
+}
+#tempInput{
+  width: 50%;
+  text-align:center;
+  font-size: 2em;
+  border: 2px solid hsla(0,0%, 0%, 0.8);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 2px;
+}
+label{
+  font-size: 1.4em;
+  font-weight: bold;
+  
+}
+button{
+  margin-top: 15px;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: hsl(0, 100%, 60%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  box-shadow:4px 4px 10px hsla(0, 0%, 0%, 0.301);
+
+}
+button:hover{
+  background-color: hsl(0, 100%, 50%);
+}
+#result{
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  text-align: center;
+}
